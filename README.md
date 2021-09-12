@@ -28,6 +28,10 @@
 
     ![check](https://github.com/MaxOOOOON/docker/blob/main/Screenshot%202021-09-12%20202257.png)
 
+    Ссылка на docker hub с образом: 
+
+    https://hub.docker.com/repository/docker/maxon29/nginx_custom
+
 2. Образ - "сущность" стека слоев только для чтения.Контейнер - "сущность" стека слоев с верхним слоем для записи.
 
 
