@@ -43,6 +43,8 @@
 docker stop $(docker ps -aq)  
 docker build -t id/cont-name:ver .  
 docker commit nginx-base  
+docker exec -it container_id /bin/bash   
+docker-compose exec {CONTAINER_NAME} {COMMAND}  
 ENV - переменные окружения  
 ARG - переменные во время сборки    
 COPY - скопировать файл или папку   
